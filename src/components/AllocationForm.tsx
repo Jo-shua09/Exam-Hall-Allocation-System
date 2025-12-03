@@ -188,7 +188,7 @@ const AllocationForm = () => {
   return (
     <div className="w-full max-w-2xl mx-auto">
       {!showResult ? (
-        <form onSubmit={handleSubmit} className="glass-card p-6 md:p-8 animate-scale-in">
+        <form onSubmit={handleSubmit} className="glass-card p-4 md:p-6 animate-scale-in">
           <div className="text-center mb-8">
             <h2 className="font-poppins font-bold text-2xl md:text-3xl text-foreground mb-2">Search for Your Hall</h2>
             <p className="text-muted-foreground">Enter your details below to find your examination hall allocation</p>
@@ -350,7 +350,6 @@ const AllocationForm = () => {
             >
               {isLoading ? (
                 <>
-                  <Loader />
                   <span>Searching...</span>
                 </>
               ) : (
