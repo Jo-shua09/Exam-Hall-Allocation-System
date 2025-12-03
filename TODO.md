@@ -1,0 +1,5 @@
+- [x] Remove lovable-tagger import and usage from vite.config.ts
+- [x] Remove lovable-tagger dependency from package.json
+- [x] Replace README.md with a generic one
+- [x] Update meta image URLs in index.html
+- [x] Run npm install to clean up
